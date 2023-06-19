@@ -34,6 +34,7 @@ jobs:
         uses: Nuitka/Nuitka-Action@main
         with:
           nuitka-version: main
+          standalone: true
           script-name: sgpt/__main__.py
 
       - name: Upload Artifacts
